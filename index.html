@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Simples</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <main>
+        <section id="nascimento">
+            <label for="idnascimento">Ano de Nascimento:</label>
+            <input type="text" id="idnascimento">
+        </section>
+        
+        <section id="sexo">
+            <label>Sexo:</label>
+            
+            <label for="idmasculino">Masculino</label>
+            <input type="radio" name="sexo" id="idmasculino">
+
+            <label for="idfeminino">Feminino</label>
+            <input type="radio" name="sexo" id="idfeminino">
+
+            <input type="button" value="Enviar" onclick="verificar()">
+        </section>
+    </main>
+    <footer>
+        © Bruno Coelho Dias
+    </footer>
+</body>
+</html>
