@@ -8,19 +8,19 @@ function verificar() {
     var sexo = document.getElementsByName('sexo')
     if (sexo[0].checked) {
         if (idade < 12) {
-            img.innerHTML = '                <img src="imagens/garoto.jpg" alt="garoto">'
+            img.innerHTML = '<img src="imagens/garoto.jpg" alt="garoto">'
         } else if (idade < 50) {
-            img.innerHTML = '                <img src="imagens/homem.jpg" alt="homem">'
+            img.innerHTML = '<img src="imagens/homem.jpg" alt="homem">'
         } else if (idade < 110) {
-            img.innerHTML = '                <img src="imagens/idoso.jpg" alt="idoso">'
+            img.innerHTML = '<img src="imagens/idoso.jpg" alt="idoso">'
         }
     } else if (sexo[1].checked) {
         if (idade < 12) {
-            img.innerHTML = '                <img src="imagens/garota.jpg" alt="garota">'
+            img.innerHTML = '<img src="imagens/garota.jpg" alt="garota">'
         } else if (idade < 50) {
-            img.innerHTML = '                <img src="imagens/mulher.jpg" alt="mulher">'
+            img.innerHTML = '<img src="imagens/mulher.jpg" alt="mulher">'
         } else if (idade < 110) {
-            img.innerHTML = '                <img src="imagens/idosa.jpg" alt="idosa">'
+            img.innerHTML = '<img src="imagens/idosa.jpg" alt="idosa">'
         }
     }
 }
