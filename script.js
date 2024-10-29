@@ -8,7 +8,7 @@ function verificar() {
     var sexo = document.getElementsByName('sexo')
     if (sexo[0].checked) {
         if (idade < 12) {
-            img.innerHTML = '<img src="imagens/garoto.jpg" alt="garoto">'
+            img.getAttribute('src', 'imagens/garoto.jpg')
         } else if (idade < 50) {
             img.innerHTML = '<img src="imagens/homem.jpg" alt="homem">'
         } else if (idade < 110) {
