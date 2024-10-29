@@ -4,11 +4,12 @@ function verificar() {
     var idade = agora_ano - nascimento
 
     var img = document.querySelector('div#imagem')
+    var img2 = document.querySelector('img#teste')
 
     var sexo = document.getElementsByName('sexo')
     if (sexo[0].checked) {
         if (idade < 12) {
-            img.getAttribute('src', 'imagens/garoto.jpg')
+            img2.setAttribute('src', 'imagens/garoto.jpg')
         } else if (idade < 50) {
             img.innerHTML = '<img src="imagens/homem.jpg" alt="homem">'
         } else if (idade < 110) {
